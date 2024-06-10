@@ -1,0 +1,48 @@
+:root {
+    --cor--primaria: orange;
+    --cor--secundaria: purple;
+}
+
+body {
+    background-color: black; 
+    color: white;
+    background-image: url(../imgs/html-5.png);
+    background-repeat: no-repeat;
+    
+
+ }
+
+
+ .azul{
+  color: blue
+ }
+
+ .sublinhado { text-decoration: underline;
+    
+
+}
+
+ 
+#maiusculo {
+  text-transform: uppercase;
+
+}
+.italico {
+  font-style: italic;
+
+}
+div > p {
+  text-decoration: underline;
+}
+
+div + p {
+  color: green;
+}
+
+div ~ p {
+  text-transform: uppercase;
+}
+
+a:hover { 
+  color: yellow;
+}
