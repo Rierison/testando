@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 :root {
   --cor--primaria: orange;
   --cor--secundaria: rgb(110, 2, 110);
 }
-
+/* fcriando variaveis de css*/
+* {
+  margin: 0;
+  /* remove margens*/
+  padding: 0;
+  /* remove espaçamentos internos*/
+  box-sizing: border-box;
+  /* calcula larguras automaticamente*/
+  font-family: "Tiny5", sans-serif;
+  /*define uma família de fonte*/
+}
 body {
   background-color: black;
   /* fundo preto */
