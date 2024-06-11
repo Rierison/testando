@@ -1,48 +1,73 @@
 :root {
-    --cor--primaria: orange;
-    --cor--secundaria: rgb(110, 2, 110);
+  --cor--primaria: orange;
+  --cor--secundaria: rgb(110, 2, 110);
 }
 
 body {
-    background-color: black; 
-    color: white;
-    background-image: url(../imgs/html-5.png);
-    background-repeat: no-repeat;
-    
+  background-color: black;
+  /* fundo preto */
+  color: white;
+  /*letra branca*/
+  background-image: url(../imgs/html-5.png);
+  /*imagem de fundo*/
+  background-repeat: no-repeat;
+  /*letra branca*/
+  padding: au;
 
- }
-
-
- .azul{
-  color: blue
- }
-
- .sublinhado { text-decoration: underline;
-    
 
 }
 
- 
+
+.azul {
+  color: blue
+}
+
+.sublinhado {
+  text-decoration: underline;
+
+
+}
+
+
 #maiusculo {
   text-transform: uppercase;
 
 }
+
 .italico {
   font-style: italic;
 
 }
-div > p {
+
+div>p {
   text-decoration: underline;
 }
 
-div + p {
+div+p {
   color: green;
 }
 
-div ~ p {
+div~p {
   text-transform: uppercase;
 }
 
-a:hover { 
+a:hover {
   color: yellow;
 }
+
+p:: ::selection {
+  background-color: yellow;
+  /*cor de fundo*/
+}
+
+
+table, th, td {
+  border: 1px inset white;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+#foto-perfil {
+  border-radius: 50%;
+}
+
