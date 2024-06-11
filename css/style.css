@@ -88,6 +88,18 @@ table, th, td {
 }
 
 #foto-perfil {
-  border-radius: 50%;
+  border-radius: 3%;
+}
+
+#text-img {
+  float: right;
+  opacity: 0.5;
+}
+#img-texto-hover {
+  opacity: 1;
+}
+
+#text-img {
+  clear: both;
 }
 
