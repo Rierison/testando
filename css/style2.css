@@ -1,0 +1,21 @@
+:root  /*--paleta de cores--*/ 
+
+{  
+    --primaria: #0910ec;
+    --secundaria: #fff;
+    --terciaria: #7f7f7f;
+    
+}
+
+* {
+    margin: o;
+    padding: o;
+    box-sizing:border-box;
+
+}
+
+header {
+    background-color: var(--primaria);
+    color: var(--secundaria);
+    
+}
