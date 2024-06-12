@@ -1,26 +1,52 @@
 :root  /*--paleta de cores--*/ 
 
 {  
-    --primaria: #0910ec;
-    --secundaria: #fff;
-    --terciaria: #7f7f7f;
+    --cor-primaria: #f464c3;
+    --cor-secundaria: #3d1c31;
+    --cor-terciaria: #fdace0;
+    --branco: white;
+    --preto: black;    
     
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;  
+    
+
 }
 
 * {
-    margin: o;
-    padding: o;
-    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
 }
+
 
 header {
-    background-color: var(--primaria);
-    color: var(--secundaria);
+    background-color: var(--cor-primaria);
+    display: flex;
+    padding: 1rem;
     
+}
+
+#form-buscar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 
 }
 
-nav a {
-    color: var(--secundaria);
+#buscar {
+    flex-grow: 1;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+
 }
