@@ -18,4 +18,9 @@ header {
     background-color: var(--primaria);
     color: var(--secundaria);
     
+
+}
+
+nav a {
+    color: var(--secundaria);
 }
